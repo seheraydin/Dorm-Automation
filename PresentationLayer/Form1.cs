@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PresentationLayer
 {
-    public partial class FrmBolumler : Form
+    public partial class Form1 : Form
     {
-        public FrmBolumler()
+        public Form1()
         {
             InitializeComponent();
         }
