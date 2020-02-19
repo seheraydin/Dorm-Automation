@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DataAccessLayer"
   ],
-  "SelectedNode": "\\DataAccessLayer",
+  "SelectedNode": "\\DataAccessLayer\\DataAccessLayer.csproj",
   "PreviewInSolutionExplorer": false
 }

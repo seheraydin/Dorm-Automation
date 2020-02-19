@@ -1,3 +1,2 @@
 # YurtOtomasyon
-MS SQL
-C#
+SQL Server & C#
