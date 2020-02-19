@@ -1,1 +1,2 @@
 C:\Users\hmdmr\OneDrive\Masaüstü\YurtOtomasyon\YurtOtomasyon\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\PresentationLayer.exe.config
