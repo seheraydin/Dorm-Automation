@@ -1,2 +1,13 @@
 C:\Users\hmdmr\OneDrive\Masaüstü\YurtOtomasyon\YurtOtomasyon\PresentationLayer\bin\Debug\PresentationLayer.exe.config
 C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmAnaSayfa.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmBolumler.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmOgrenciKayit.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmTaksitOdeme.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.pdb
