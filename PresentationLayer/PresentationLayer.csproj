@@ -65,6 +65,24 @@
     <Compile Include="FrmBolumler.Designer.cs">
       <DependentUpon>FrmBolumler.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGider.designer.cs">
+      <DependentUpon>FrmGider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMnllAdminGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMnllAdminGiris.designer.cs">
+      <DependentUpon>FrmMnllAdminGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgrDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrDuzenle.designer.cs">
+      <DependentUpon>FrmOgrDuzenle.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOgrenciKayit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +102,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBolumler.resx">
       <DependentUpon>FrmBolumler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGider.resx">
+      <DependentUpon>FrmGider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMnllAdminGiris.resx">
+      <DependentUpon>FrmMnllAdminGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgrDuzenle.resx">
+      <DependentUpon>FrmOgrDuzenle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOgrenciKayit.resx">
       <DependentUpon>FrmOgrenciKayit.cs</DependentUpon>
