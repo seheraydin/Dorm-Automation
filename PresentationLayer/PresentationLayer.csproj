@@ -96,6 +96,12 @@
     <Compile Include="FrmOgrenciKayit.Designer.cs">
       <DependentUpon>FrmOgrenciKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPerssonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPerssonel.Designer.cs">
+      <DependentUpon>FrmPerssonel.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTaksitOdeme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOgrenciKayit.resx">
       <DependentUpon>FrmOgrenciKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPerssonel.resx">
+      <DependentUpon>FrmPerssonel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTaksitOdeme.resx">
       <DependentUpon>FrmTaksitOdeme.cs</DependentUpon>
