@@ -1,0 +1,3 @@
+# YurtOtomasyon
+MS SQL
+C#
