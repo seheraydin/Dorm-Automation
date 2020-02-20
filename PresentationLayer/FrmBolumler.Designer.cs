@@ -84,7 +84,7 @@
             // 
             // btnEkle
             // 
-            this.btnEkle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.btnEkle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEkle.ImageOptions.Image")));
             this.btnEkle.Location = new System.Drawing.Point(384, 28);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(143, 44);
@@ -93,7 +93,7 @@
             // 
             // btnSil
             // 
-            this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
             this.btnSil.Location = new System.Drawing.Point(384, 78);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(143, 44);
@@ -102,7 +102,7 @@
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.ImageOptions.Image")));
             this.btnGuncelle.Location = new System.Drawing.Point(384, 128);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(143, 44);
