@@ -50,7 +50,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.rchTxtAdres = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnKaydet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -265,15 +265,16 @@
             this.rchTxtAdres.TabIndex = 21;
             this.rchTxtAdres.Text = "";
             // 
-            // button1
+            // btnKaydet
             // 
-            this.button1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(193, 424);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 40);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnKaydet.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKaydet.Location = new System.Drawing.Point(193, 424);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(100, 40);
+            this.btnKaydet.TabIndex = 22;
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // FrmOgrenciKayit
             // 
@@ -281,7 +282,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(495, 471);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.rchTxtAdres);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.mskTxtVeliTel);
@@ -336,6 +337,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.RichTextBox rchTxtAdres;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnKaydet;
     }
 }

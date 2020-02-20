@@ -36,5 +36,23 @@ namespace PresentationLayer
             }
 
         }
+        
+        private void btnKaydet_Click(object sender, EventArgs e)
+        {
+            OgrenciEntity ogrenci = new OgrenciEntity();
+            ogrenci.OgrenciAd = txtOgrAd.Text;
+            ogrenci.OgrenciSoyad = txtOgrSoyad.Text;
+            ogrenci.OgrenciTC = mskTxtOgrTC.Text;
+            ogrenci.OgrenciTelefon = mskTxtOgrTel.Text;
+            ogrenci.OgrenciDogumTarihi = mskTxtOgrTarih.Text;
+            ogrenci.OgrenciVeliAdSoyad = txtVeliAdSoyad.Text;
+            ogrenci.OgrenciVeliTelefon = mskTxtVeliTel.Text;
+            ogrenci.OgrenciAdres = rchTxtAdres.Text;
+            ogrenci.OgrenciOdaNo = cmbOgrOdaNo.Text;
+
+            OgrenciDAL ogrDal = new OgrenciDAL();
+            ogrDal.OgrenciEkle(ogrenci);
+
+        }
     }
 }
