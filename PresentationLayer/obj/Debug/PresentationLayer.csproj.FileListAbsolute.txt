@@ -11,3 +11,13 @@ C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug
 C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.Cache
 C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.exe
 C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmGelirIstatistik.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmGider.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmMnllAdminGiris.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmOgrDuzenle.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmPerssonel.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\obj\Debug\PresentationLayer.FrmYoneticiDuzenle.resources
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\EntityLayer.dll
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\PresentationLayer\bin\Debug\EntityLayer.pdb

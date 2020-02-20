@@ -7,3 +7,10 @@ C:\Users\seher\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\D
 C:\Users\seher\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\seher\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\seher\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\hmdmr\Source\Repos\seheraydin\YurtOtomasyon\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

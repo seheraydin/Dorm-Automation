@@ -19,7 +19,7 @@ namespace PresentationLayer
 
         private void FrmOgrDuzenle_Load(object sender, EventArgs e)
         {
-            txtOgrAd.Text = id;
+            //txtOgrAd.Text = id;
         }
     }
 }

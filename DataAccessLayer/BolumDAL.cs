@@ -40,6 +40,22 @@ namespace DataAccessLayer
             cmd.Parameters.AddWithValue("@BolumID", Bolum.BolumID);
             cmd.ExecuteNonQuery();
         }
+        //Bolum Getir Method
+        public List<BolumEntity> BolumGetir()
+        {
+            SqlCommand cmd = dbHelper.GetSqlCommand();
+            cmd.CommandText = "SELECT BolumAd FROM Tbl_Bolum";
+            List<BolumEntity> bolumler = new List<BolumEntity>();
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                BolumEntity bolum = new BolumEntity();
+                bolum.BolumAd = dr["BolumAd"].ToString();
+
+                bolumler.Add(bolum);
+            }
+            return bolumler;
+        }
 
     }
 }
