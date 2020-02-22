@@ -113,6 +113,7 @@
             this.btnEkle.Size = new System.Drawing.Size(143, 44);
             this.btnEkle.TabIndex = 5;
             this.btnEkle.Text = "Ekle";
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnSil
             // 
@@ -122,6 +123,7 @@
             this.btnSil.Size = new System.Drawing.Size(143, 44);
             this.btnSil.TabIndex = 6;
             this.btnSil.Text = "Sil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
@@ -131,6 +133,7 @@
             this.btnGuncelle.Size = new System.Drawing.Size(143, 44);
             this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // tbl_BolumTableAdapter
             // 
