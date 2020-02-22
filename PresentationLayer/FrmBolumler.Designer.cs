@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBolumler));
             this.dgwBolumler = new System.Windows.Forms.DataGridView();
+            this.tblBolumBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dboYurtOtomasyonDataSet = new PresentationLayer.DboYurtOtomasyonDataSet();
             this.lblBolumId = new System.Windows.Forms.Label();
             this.lblBolumAd = new System.Windows.Forms.Label();
             this.txtBolumId = new System.Windows.Forms.TextBox();
@@ -37,16 +40,36 @@
             this.btnEkle = new DevExpress.XtraEditors.SimpleButton();
             this.btnSil = new DevExpress.XtraEditors.SimpleButton();
             this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.tbl_BolumTableAdapter = new PresentationLayer.DboYurtOtomasyonDataSetTableAdapters.Tbl_BolumTableAdapter();
+            this.bolumIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bolumAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgwBolumler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblBolumBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dboYurtOtomasyonDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dgwBolumler
             // 
+            this.dgwBolumler.AutoGenerateColumns = false;
             this.dgwBolumler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgwBolumler.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.bolumIDDataGridViewTextBoxColumn,
+            this.bolumAdDataGridViewTextBoxColumn});
+            this.dgwBolumler.DataSource = this.tblBolumBindingSource;
             this.dgwBolumler.Location = new System.Drawing.Point(7, 210);
             this.dgwBolumler.Name = "dgwBolumler";
             this.dgwBolumler.Size = new System.Drawing.Size(564, 221);
             this.dgwBolumler.TabIndex = 0;
+            // 
+            // tblBolumBindingSource
+            // 
+            this.tblBolumBindingSource.DataMember = "Tbl_Bolum";
+            this.tblBolumBindingSource.DataSource = this.dboYurtOtomasyonDataSet;
+            // 
+            // dboYurtOtomasyonDataSet
+            // 
+            this.dboYurtOtomasyonDataSet.DataSetName = "DboYurtOtomasyonDataSet";
+            this.dboYurtOtomasyonDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // lblBolumId
             // 
@@ -109,6 +132,24 @@
             this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "Güncelle";
             // 
+            // tbl_BolumTableAdapter
+            // 
+            this.tbl_BolumTableAdapter.ClearBeforeFill = true;
+            // 
+            // bolumIDDataGridViewTextBoxColumn
+            // 
+            this.bolumIDDataGridViewTextBoxColumn.DataPropertyName = "BolumID";
+            this.bolumIDDataGridViewTextBoxColumn.HeaderText = "BolumID";
+            this.bolumIDDataGridViewTextBoxColumn.Name = "bolumIDDataGridViewTextBoxColumn";
+            this.bolumIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // bolumAdDataGridViewTextBoxColumn
+            // 
+            this.bolumAdDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.bolumAdDataGridViewTextBoxColumn.DataPropertyName = "BolumAd";
+            this.bolumAdDataGridViewTextBoxColumn.HeaderText = "BolumAd";
+            this.bolumAdDataGridViewTextBoxColumn.Name = "bolumAdDataGridViewTextBoxColumn";
+            // 
             // FrmBolumler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,6 +168,8 @@
             this.Text = "FrmBolumler";
             this.Load += new System.EventHandler(this.FrmBolumler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwBolumler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblBolumBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dboYurtOtomasyonDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,5 +185,10 @@
         private DevExpress.XtraEditors.SimpleButton btnEkle;
         private DevExpress.XtraEditors.SimpleButton btnSil;
         private DevExpress.XtraEditors.SimpleButton btnGuncelle;
+        private DboYurtOtomasyonDataSet dboYurtOtomasyonDataSet;
+        private System.Windows.Forms.BindingSource tblBolumBindingSource;
+        private DboYurtOtomasyonDataSetTableAdapters.Tbl_BolumTableAdapter tbl_BolumTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bolumIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bolumAdDataGridViewTextBoxColumn;
     }
 }
