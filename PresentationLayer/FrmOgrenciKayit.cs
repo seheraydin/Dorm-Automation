@@ -62,6 +62,20 @@ namespace PresentationLayer
 
                 OgrenciDAL ogrDal = new OgrenciDAL();
                 ogrDal.OgrenciEkle(ogrenci);
+
+                try
+                {
+                    BorcDAL BorcDal = new BorcDAL();
+                    BorcEntity borc = new BorcEntity();
+                    borc.OgrenciAd = ogrenci.OgrenciAd;
+                    borc.OgrenciSoyad = ogrenci.OgrenciSoyad;
+                    borc.OgrenciKalanBorc = 3000;
+                    BorcDal.OgrenciBorcEkle(borc);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Öğrenci Borç Eklenirken Hata Oluştu Lütfen Bilgileri Kontrol Ediniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             catch (Exception)
             {
